@@ -2,7 +2,7 @@ import React from 'react';
 import IncrementalCounter from "./Counter.jsx";
 import InfiniteScroll from './InfiniteScroll.jsx';
 import InstaLike from './Like.jsx'; 
-import "./instalike.css";
+import "./InstaLike.css";
 
 
 function App() {
