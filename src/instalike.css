@@ -1,0 +1,28 @@
+.insta-container {
+  position: relative;
+  display: inline-block;
+}
+
+.insta-image {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+  text-shadow: 0 0 10px red;
+  animation: fade 0.8s ease-out;
+}
+
+@keyframes fade {
+  0% { opacity: 0; transform: scale(0.5) translate(-50%, -50%); }
+  50% { opacity: 1; transform: scale(1.2) translate(-50%, -50%); }
+  100% { opacity: 0; transform: scale(1) translate(-50%, -50%); }
+}
